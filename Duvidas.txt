@@ -49,3 +49,7 @@ Trabalhando com fila no adonis (Redis)
 
 Utlizando sentry para monitoramento de execeções
   yarn add raven
+
+Aprendendo a lidar com salvamento de relacionamentos entre models
+  adonis make:model UserAddress -m
+
