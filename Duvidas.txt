@@ -1,0 +1,48 @@
+Configurando Eslint
+  yarn add eslint --D | npm install -D eslint
+
+Para iniciar o arquivo de config do eslint
+  npx eslint --init
+
+Na controller recebemos a variavel ctx bem parecida com o express e dentro dela podemos fazer a
+desestruturação dos dados
+
+Configurando envio de email no adonis
+  adonis install @adonisjs/mail
+
+Instalamos o moment
+  yarn add moment
+
+Instalamos o validator do adonis
+  adonis install @adonisjs/validator
+
+Criando um validator
+  adonis make:validator User
+  adonis make:validator Session
+
+Agora iremos mudar a forma que o adonis lida com execeções
+  adonis make:ehandler
+
+Utilizando internacionalizacao
+  adonis install @adonisjs/antl
+
+Criando hooks no adonis
+  adonis make:hook Task
+
+Trabalhando com fila no adonis (Redis)
+  Instalando a imagem no docker
+      docker run --name redis -p 6379:6379 -d redis:alpine | Executar no terminal
+
+  Instalando o provider no adonis
+    adonis install @adonisjs/redis
+
+  Instalando o pacote para gerenciar nossas filas
+    yarn add adonis-kue
+
+  Agora se eu rodar o comando adonis ele me mostrar dois novos comandos adicionados
+
+  Iremos criar nosso job
+    adonis make:job name_job
+
+  Listando nossas filas
+    adonis kue:listen
