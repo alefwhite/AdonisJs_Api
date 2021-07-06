@@ -33,7 +33,8 @@
     "adonis-kue": "^5.0.1",
     "eslint": "^7.30.0",
     "moment": "^2.29.1",
-    "pg": "^8.6.0"
+    "pg": "^8.6.0",
+    "raven": "^2.6.4"
   },
   "devDependencies": {},
   "autoload": {

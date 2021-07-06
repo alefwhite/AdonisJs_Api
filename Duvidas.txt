@@ -44,5 +44,8 @@ Trabalhando com fila no adonis (Redis)
   Iremos criar nosso job
     adonis make:job name_job
 
-  Listando nossas filas
+  Subindo nosso job junto com nosso servidor
     adonis kue:listen
+
+Utlizando sentry para monitoramento de execeções
+  yarn add raven
