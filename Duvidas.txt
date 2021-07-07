@@ -53,3 +53,12 @@ Utlizando sentry para monitoramento de execeções
 Aprendendo a lidar com salvamento de relacionamentos entre models
   adonis make:model UserAddress -m
 
+Trabalhando com Adonis Acl para permissões
+	adonis install adonis-acl
+	yarn add adonis-acl
+
+
+Criando as migrations do adonis acl
+	adonis acl:setup | enviando para o banco adonis migration:run
+
+
